@@ -1,49 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 body {
-    background-color: black;
+    background-color: #03120e;
     margin: 0;
     overflow-y: hidden;
 }
 
-.title {
+.title {    
     height: 100px;  
-    background-color: aliceblue;
+    background-color: #8ab0ab;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    border: 2px solid red;
+    border: 2px solid white;
     padding: 10px;
+    border-radius: 20px;
+
 }
 
 .title_text {
     font-size: xx-large;
     font-weight: bold;
+    font-family: "Limelight", sans-serif;
 }
 
 .main_section {
     height: 500px;
-    background-color: aliceblue;
+    background-color: #8ab0ab;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin: 10px;
-    border: 2px solid red;
+    border: 2px solid white;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .domanda {
-    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #26413c;
+    color: white;
+    font-weight: bold;
+    font-size:  x-large;
     width: 100%;
     height: 100px;
-    border: 2px solid red;
+    border: 2px solid white;
     margin: 10px;
     padding-top: 10px;
+    border-radius: 20px;
 }
 
 .risposte{ 
-    background-color: lightgreen;
-    border: 2px solid red; 
+    background-color: #8ab0ab;
+    border: 2px solid white; 
     width: 100%;
     height: 400px;
     display: flex;
@@ -51,13 +64,27 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    flex-wrap: wrap;    
 }
 
 .risposta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightblue;
     width: 45%;
     height: 100px;
     margin: 20px;
     padding: 10px;
-    border: 2px solid red;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.risposta:hover {
+    background-color: #26413c;
+    color: white;
+    cursor: pointer;
 }
